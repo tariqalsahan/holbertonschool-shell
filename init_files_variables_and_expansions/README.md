@@ -13,3 +13,4 @@
 - 7-create_global_variable: export BEST="School"
 - 8-true_knowledge: echo $((128 + TRUEKNOWLEDGE))
 - 9-divide_and_rule: echo $((POWER / DIVIDE))
+- 14-decimal_to_hexadecimal: converts the number in DECIMAL to hexadecimal
