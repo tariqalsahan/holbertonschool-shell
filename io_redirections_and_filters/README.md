@@ -1,0 +1,25 @@
+# I/O Redirections and Filters
+Each script in this folder uses shell redirections and filters.
+- 0-hello_world: echo "Hello, World"
+- 1-confused_smiley: echo "\"(Ôo)'"
+- 10-no_more_js: find . -type f -name "*.js" -delete
+- 11-directories: find . -mindepth 1 -type d | wc -l
+- 12-newest_files: ls -t | head
+- 13-unique: sort | uniq -u
+- 14-findthatword: grep "root" /etc/passwd
+- 15-countthatword: grep -c "bin" /etc/passwd
+- 16-whatsnext: grep -A 3 "root" /etc/passwd
+- 17-hidethisword: grep -v "bin" /etc/passwd
+- 18-letteronly: grep "^[A-Za-z]" /etc/ssh/sshd_config
+- 19-AZ: tr "Ac" "Ze"
+- 2-hellofile: cat /etc/passwd
+- 20-hiago: tr -d "cC"
+- 21-reverse: rev
+- 22-users_and_homes: cut -d ":" -f 1,6 /etc/passwd | sort
+- 3-twofiles: cat /etc/passwd /etc/hosts
+- 4-lastlines: tail /etc/passwd
+- 5-firstlines: head /etc/passwd
+- 6-third_line: head -n 3 iacta | tail -n 1
+- 7-file: echo "Best School" > \\\*\\\\\'\"Holberton\ School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\)
+- 8-cwd_content: ls -la > ls_cwd_content
+- 9-duplicate_last_line: tail -n 1 iacta >> iacta
