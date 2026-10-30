@@ -8,3 +8,4 @@
 - 6-multiple_permissions: adds execute to owner and group, and read to others on hello
 - 13-change_group: changes the group owner of the file hello to school
 - 14-change_owner_and_group: sets owner to vincent and group to staff for all files and directories in the working directory
+- 15-symbolic_link_permissions: changes owner to vincent and group to staff of the symbolic link _hello
