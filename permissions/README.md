@@ -6,3 +6,4 @@
 - 4-empty: creates an empty file called hello
 - 5-execute: adds execute permission to the owner of the file hello
 - 6-multiple_permissions: adds execute to owner and group, and read to others on hello
+- 13-change_group: changes the group owner of the file hello to school
